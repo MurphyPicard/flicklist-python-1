@@ -17,7 +17,7 @@ class Index(webapp2.RequestHandler):
         movie = self.getRandomMovie()
 
         # build the response string
-        content = "<h1>Movie of the Day</h1>"
+        content = "<h1>Movie of the Day!</h1>"
         content += "<p>" + movie + "</p>"
         content += "<h1>The Movie Tomorrw</h1>"
         movie = self.getRandomMovie()
